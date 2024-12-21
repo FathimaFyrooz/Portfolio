@@ -33,21 +33,21 @@ const Home = () => {
     >
       <header>
         <motion.h1
-          style={{  }}
+          style={{fontSize:"80px",fontFamily:"fantasy",letterSpacing:"3px"}}
           class="motion.h1"
           initial="hidden"
           animate="visible"
           variants={textVariant}
         >
-          Welcome to My Portfolio
+          Fathima Fyrooz
         </motion.h1>
         <motion.p
-          style={{ fontSize: '1.5rem', color: '#7f8c8d' }}
+          style={{ fontSize: '1.5rem', color: '#7f8c8d',fontFamily:"fantasy" }}
           initial={{ opacity: 0, x: -100 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ delay:0.5}}
         >
-          Hi, I’m Fathima Fyrooz C S. A Passionate Software Developer
+          Designing intuitive interfaces, powering them with robust backends
         </motion.p>
       </header>
 
