@@ -32,7 +32,7 @@ const Header = () => {
   };
 
   return (
-    <Box sx={{display:"flex"}}>
+    <Box sx={{display:"flex",alignItems:"center",justifyContent:"center"}}>
 
     
     <Box
@@ -41,8 +41,10 @@ const Header = () => {
         padding: '5rem',
         color:"white",
         borderRadius: '10px',
-        margin: '2rem auto',
-        // marginTop:"70px",
+        // margin: '2rem auto',
+        marginLeft:"70px",
+        marginTop:"70px",
+        marginRight:"100px",
         maxWidth: '600px',
         boxShadow: '0px 2px 8px #a9ff1c',
         
@@ -96,7 +98,25 @@ const Header = () => {
         </Button>
       </Box>
     </Box>
-    <Box sx={{color:"white",   margin: '2rem auto',width:"70px",borderRadius:"89% 11% 84% 16% / 22% 61% 39% 78% ",height:"70px",backgroundColor:"green"}}>gybunjkihfdghfghdfghfgh</Box>
+    <Box
+  sx={{
+    color: "white",
+    margin: '2 rem auto',
+    marginTop:"70px",
+    width: "400px", // Increased size
+    height: "400px", // Increased size
+    borderRadius: "89% 11% 84% 16% / 22% 61% 39% 78%",
+    backgroundColor: "#a9ff1c",
+    overflow:"hidden",
+    display:"flex",
+    position:"relative",
+    alignItems:"center",
+    justifyContent:"center"
+  }}
+>
+  <img src='/IMG_20240420_215419-removebg-preview.png' style={{height:'350px'}}/>
+</Box>
+
     </Box>
   );
 };

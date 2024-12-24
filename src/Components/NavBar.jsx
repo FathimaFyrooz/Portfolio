@@ -14,16 +14,16 @@ const Navbar = () => {
           </Typography>
           <Box>
             <Button color="inherit" component={Link} to="/" style={{ textTransform: 'none',fontFamily:"fantasy" }}>
-              Home
+            <div style={{width:"10px",height:"10px",backgroundColor:"#a9ff1c",marginRight:"4px"}}></div>Home
             </Button>
             <Button color="inherit" component={Link} to="/journey" style={{ textTransform: 'none',fontFamily:"fantasy" }}>
-              Journey
+            <div style={{width:"10px",height:"10px",backgroundColor:"#a9ff1c",marginRight:"4px"}}></div> Journey
             </Button>
             <Button color="inherit" component={Link} to="/projects" style={{ textTransform: 'none',fontFamily:"fantasy" }}>
-              Projects
+            <div style={{width:"10px",height:"10px",backgroundColor:"#a9ff1c",marginRight:"4px"}}></div>Projects
             </Button>
             <Button color="inherit" component={Link} to="/contact" style={{ textTransform: 'none',fontFamily:"fantasy" }}>
-              Contact
+            <div style={{width:"10px",height:"10px",backgroundColor:"#a9ff1c",marginRight:"4px"}}></div> Contact
             </Button>
           </Box>
         </Container>
